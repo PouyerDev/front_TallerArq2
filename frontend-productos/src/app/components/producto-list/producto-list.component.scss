@@ -1,0 +1,17 @@
+/* filepath: e:\Users\Daniel\Documents\_8SEMESTRE\arqui 2\Taller2\Front\angular2\front_TallerArq2\frontend-productos\src\app\components\producto-list\producto-list.component.scss */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}

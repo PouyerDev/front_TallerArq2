@@ -10,6 +10,7 @@
           "style": "scss"
         }
       },
+      
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -62,6 +63,10 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "proxyConfig": "proxy.conf.json",
+            "port": 4220
+          },
           "configurations": {
             "production": {
               "buildTarget": "frontend-productos:build:production"
@@ -102,4 +107,5 @@
   "cli": {
     "analytics": false
   }
+  
 }
